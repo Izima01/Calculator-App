@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 700px;
+    height: auto;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.current {
+    text-align: end;
+    margin: 5px 20px 10px;
+    font-size: 28px;
+}
+
+.memory {
+    margin: 10px 20px;
+}
+
+#delete {
+    background-color: rgb(180, 138, 138);
+}
+
+#clear {
+    background-color: red;
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    border-radius: 0;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    background-color: #b2b2b2;
+    transform: scale(1.02);
+}
+
+.numbers {
+    background-color: #fafafa;
+}
+
+.equals {
+    background-color: #b6b5d3;
+}
+
+.equals:hover {
+    background-color: #6e8ca0;
+}
+
+.equals:active {
+    background-color: #4e7995;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        width: 420px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        width: 320px;
+    }
+}
