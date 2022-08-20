@@ -17,6 +17,7 @@ main {
     height: auto;
     background-color: #e6e6e6;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .row {
@@ -55,6 +56,7 @@ button {
     cursor: pointer;
     font-size: 18px;
     letter-spacing: 0.1em;
+    border-radius: 3px;
 }
 
 button:hover {
@@ -78,36 +80,25 @@ button:hover {
     background-color: #4e7995;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     main {
-        width: 600px;
+        
     }
-}
+} */
 
 @media screen and (max-width: 850px) {
     main {
-        width: 500px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    main {
-        width: 420px;
-    }
-
-    button {
-        font-size: 14px;
+        width: 75%;
+        padding: 10px;
     }
 }
 
 @media screen and (max-width: 450px) {
     main {
-        width: 350px;
+        width: 85%;
+        /* padding: 5px; */
     }
-}
-
-@media screen and (max-width: 375px) {
-    main {
-        width: 320px;
+    button {
+        font-size: 16px;
     }
 }
